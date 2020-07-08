@@ -1,0 +1,1604 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.b-iShack-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
+    background: rgba(4, 28, 46, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+
+}
+
+.b-iShack-main .b-iShack-container {
+    padding: 0 15px;
+}
+
+.b-iShack-container {
+    max-width: 1200px;
+    width: 1200px;
+    box-sizing: border-box;
+    padding: 56px 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.b-iShack-container.disabled {
+    opacity: 0.5;
+}
+
+.b-iShack-header-logo {
+    width: 96px;
+    height: 32px;
+}
+
+.b-iShack-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+}
+
+.b-iShack-header-nav-item {
+    list-style-type: none;
+
+}
+
+.b-iShack-header-nav-item a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 22px;
+    color: #C0CCD3;
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.b-iShack-header-nav-item a:hover {
+    color: #76D6FF;
+    transition: 0.3s;
+}
+
+.blue-btn {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 16px 24px;
+    background: #2B9CE5;
+    border-radius: 1px;
+    display: inline-block;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+}
+
+.header-sign-in {
+    padding: 8px 16px;
+}
+
+.b-iShack-main {
+    position: relative;
+    width: 100%;
+    background-color: #15354D;
+    background-image: url("../src/images/bg4.jpg");
+    padding-top: 80px;
+}
+
+.b-iShack-main-info, .b-iShack-main-img {
+    flex-basis: 50%;
+}
+
+.b-iShack-main-img {
+    padding: 120px 0;
+}
+
+.b-iShack-main-img img {
+    max-width: 570px;
+    width: 100%;
+}
+
+.b-iShack-main-info h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 125%;
+    color: #FFFFFF;
+
+    width: 85%;
+}
+
+.b-iShack .b-iShack-main-info h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding-top: 24px;
+    padding-bottom: 40px;
+    width: 85%;
+    text-align: start;
+}
+
+.b-iShack .b-iShack-main-info span {
+    font-weight: normal;
+
+}
+
+.b-iShack h3 {
+    width: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #1C1C1C;
+}
+
+.b-iShack p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+}
+
+.b-iShack p span {
+    font-weight: normal;
+}
+
+.b-iShack-todo-wrapp {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    width: 100%;
+}
+
+.b-iShack-todo-item {
+    max-width: 270px;
+    text-align: center;
+
+
+}
+
+.b-iShack-todo-item-img {
+    height: 88px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.b-iShack-todo-item img {
+    padding-bottom: 32px;
+    position: relative;
+
+}
+
+.b-iShack-todo-item-img:before {
+    position: absolute;
+    content: '';
+    background: #F6F6F6;
+    /*background: RED;*/
+    border-radius: 1px;
+    width: 48px;
+    height: 48px;
+    top: -16px;
+    left: -16px;
+}
+
+.b-iShack-for {
+    background: url("../src/images/for-bg.png");
+
+}
+
+.b-iShack-for h3 {
+    color: #fff;
+}
+
+.b-iShack-for-item {
+    display: flex;
+    padding-top: 40px;
+    padding-left: 16px;
+    align-items: center;
+    position: relative;
+}
+
+.b-iShack-for-item img {
+    max-width: 56px;
+}
+
+.b-iShack-for-item .b-iShack-for-img-wrap:before {
+    position: absolute;
+    content: '';
+    top: -16px;
+    left: -16px;
+    width: 48px;
+    height: 48px;
+    background: rgba(208, 241, 252, 0.15);
+    border-radius: 1px;
+}
+
+.b-iShack-for-item p {
+    padding-left: 28px;
+    text-align: start;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+.b-iShack-for-item p span {
+    font-weight: 500;
+}
+
+.b-iShack-for-item p a {
+    font-weight: normal;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.b-iShack .b-iShack-reward-text {
+    width: 60%;
+}
+
+.b-iShack-reward-text-container {
+    padding: 32px 0;
+}
+
+.b-iShack .b-iShack-reward-text-container p {
+    text-align: start;
+}
+
+.b-iShack .b-iShack-reward-text-container p:not(:last-child) {
+    padding-bottom: 24px;
+}
+
+.b-iShack-use-guide {
+    background: url("../src/images/use-bg.png");
+}
+
+.b-iShack.b-iShack-use-guide h3 {
+    color: #fff;
+}
+
+.b-iShack.b-iShack-use-guide p {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 24px 0 40px 0;
+}
+
+.download-guide.blue-btn {
+    padding-right: 56px;
+    position: relative;
+}
+
+.download-guide.blue-btn:before {
+    position: absolute;
+    content: '';
+    width: 24px;
+    height: 48px;
+    background: url("../src/images/download-icon.svg") no-repeat 50%;
+    right: 24px;
+    top: 0;
+
+}
+
+.b-iShack-faq.b-iShack h3 {
+    padding-bottom: 40px;
+    padding-top: 56px;
+}
+
+.b-element__answer {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 15px;
+    max-width: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+    transition: all .4s ease;
+}
+
+.b-element__wrapper {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #333333;
+    width: 1200px;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.b-faq__elements {
+    width: 100%;
+
+}
+
+/*.b-faq__element{*/
+/*border-bottom:1px solid #DBE4EA;*/
+/*}*/
+
+.b-element__question {
+    position: relative;
+    transition: 0.3s;
+    border-bottom: 1px solid #DBE4EA;
+    background: #E5EDF8;
+}
+
+.b-faq__element.js-active .b-element__answer {
+    max-height: 1000px;
+    transition: all .4s ease;
+    padding: 24px 15px;
+}
+
+
+.b-element__question .b-element__wrapper:after {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 70px;
+    right: 0;
+    top: 0;
+    background: url("../src/images/blue_arrow.svg") no-repeat 50%;
+    transition: 0.3s;
+}
+
+.b-faq__element.js-active .b-element__wrapper:after {
+
+    background: url("../src/images/grey_arrow.svg") no-repeat 50%;
+    transition: 0.3s;
+}
+
+.b-iShack .b-element__textual {
+    text-align: left;
+
+}
+
+.b-iShack-footer {
+    background: url("../src/images/footer_bg.jpg");
+}
+
+.b-footer__contact {
+    text-align: center;
+    list-style: none;
+    width: 100%;
+}
+
+.b-footer__contact li {
+    width: 100%;
+    max-width: 205px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 40px 32px;
+    cursor: pointer;
+}
+
+.b-footer__contact li img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 18px;
+}
+
+.b-iShack-footer .b-iShack-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.b-footer__contact li a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.b-footer__contact-border {
+    width: 100%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.11);
+}
+
+.b-iShack-footer-nav {
+    width: 100%;
+    border-bottom: 2px solid #245770;
+}
+
+.b-iShack-footer-nav ul {
+    margin: 0 auto;
+}
+
+.b-iShack-footer-nav .b-iShack-header-nav-item a {
+    padding: 28px 0;
+    display: block;
+}
+
+.b-iShack-footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 0;
+    width: 100%;
+    align-items: center;
+}
+
+.b-footer__up {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+    border: 2px solid #245770;
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: relative;
+    padding: 8px 36px 8px 16px;
+    background: rgba(0, 0, 0, .1);
+    transition: background .5s ease, color .5s ease;
+}
+
+
+.b-footer__up:before {
+    position: absolute;
+    content: '';
+    width: 14px;
+    height: 30px;
+    background: url("../src/images/up_arrow.svg") no-repeat 50%;
+    top: 0;
+    right: 16px;
+
+}
+
+.b-footer__conditions {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5288A3;
+}
+
+#iShack-form {
+    max-width: 586px;
+    width: 586px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.b-iShack-form {
+    position: relative;
+}
+
+
+.b-iShack-form h3 {
+    padding-bottom: 24px;
+}
+
+.b-iShack-form p {
+    width: 100%;
+    padding-bottom: 32px;
+}
+
+.b-label-inp {
+    position: relative;
+    width: 50%;
+    box-sizing: border-box;
+    display: block;
+    padding: 0 8px 16px 8px;
+    height: 64px;
+}
+
+.b-label-textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 8px 24px 8px;
+    height: 184px;
+    position: relative;
+    resize: none;
+}
+
+.b-label-inp input, .b-label-textarea textarea {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background: #EFF2F7;
+    border: 1px solid #C0CCD3;
+    border-radius: 4px;
+    position: relative;
+    padding: 8px 16px 8px 48px;
+    outline: none;
+    resize: none;
+}
+
+.b-label-textarea textarea {
+    padding-top: 14px;
+}
+
+
+.b-label-inp input::-webkit-input-placeholder {
+    color: #C0CCD3;
+    font-size: 12px;
+}
+
+.b-label-inp input::-moz-placeholder {
+    color: #C0CCD3;
+    font-size: 12px;
+}
+
+/*Firefox 19+*/
+.b-label-inp input:-moz-placeholder {
+    color: #C0CCD3;
+    font-size: 12px;
+}
+
+/*Firefox 18-*/
+.b-label-inp input:-ms-input-placeholder {
+    color: #C0CCD3;
+    font-size: 12px;
+}
+
+
+.b-label-textarea textarea::-webkit-input-placeholder {
+    color: #C0CCD3;
+    font-size: 12px;
+}
+
+.b-label-textarea textarea::-moz-placeholder {
+    color: #C0CCD3;
+    font-size: 12px;
+}
+
+/*Firefox 19+*/
+.b-label-textarea textarea:-moz-placeholder {
+    color: #C0CCD3;
+    font-size: 12px;
+}
+
+/*Firefox 18-*/
+.b-label-textarea textarea:-ms-input-placeholder {
+    color: #C0CCD3;
+    font-size: 12px;
+}
+
+
+.b-label-inp:before, .b-label-textarea:before {
+    position: absolute;
+    content: '';
+    width: 16px;
+    height: 16px;
+    left: 24px;
+    top: 16px;
+    /*background: red;*/
+    z-index: 2;
+
+}
+
+.name-inp:before {
+    background: url("../src/images/user_icon.svg") no-repeat 50%;
+}
+
+.mail-inp:before {
+    background: url("../src/images/icon_mail.svg") no-repeat 50%;
+}
+
+.tel-inp:before {
+    background: url("../src/images/icon_phone.svg") no-repeat 50%;
+}
+
+.site-inp:before {
+    background: url("../src/images/Union.svg") no-repeat 50%;
+}
+
+.message-textarea:before {
+    background: url("../src/images/icon_message.svg") no-repeat 50%;
+}
+
+#sign-in-form, #b-conditions, #forget-form, #success-iShack-form {
+    width: 564px;
+    background: transparent;
+    padding: 0 60px 0 0;
+}
+
+.b-iShack-popup-header {
+    background: #fff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    display: flex;
+    border-bottom: 1px solid #EFF2F7;
+    /*border-bottom: 1px solid red;*/
+    width: 504px;
+    box-sizing: border-box;
+}
+
+.b-iShack-popup-body {
+    background: #fff;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 24px 32px;
+    width: 504px;
+    box-sizing: border-box;
+}
+
+.b-iShack-popup-header {
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #576A75;
+}
+
+.b-iShack-popup-header-registration, .b-iShack-popup-header-sign-in {
+    width: 50%;
+    padding: 16px;
+    background: #EFF2F7;
+    cursor: pointer;
+}
+
+.active_popup-tab {
+    background: #fff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.b-iShack-popup-body {
+    padding: 24px 32px;
+}
+
+.b-iShack-popup-form-inp {
+    display: block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #1C1C1C;
+    position: relative;
+    width: 100%;
+}
+
+.b-iShack-popup-form-inp input {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #CED4DA;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 32px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    padding: 2px 8px;
+    outline: none;
+}
+
+.b-iShack-popup-form-select {
+    display: block;
+    width: 100%;
+    height: 32px;
+    border: 1px solid #CED4DA;
+    border-radius: 2px;
+    margin-bottom: 24px;
+    margin-top: 8px;
+    color: #8A979F;
+    padding: 2px 8px;
+}
+
+
+.checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    margin: 10px 0 0 20px;
+}
+
+.checkbox + label {
+    /*position: relative;*/
+    padding: 0 0 0 30px;
+    cursor: pointer;
+}
+
+.checkbox + label:before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    background: #fff;
+    border: 1px solid #C0CCD3;
+    transition: .2s;
+}
+
+.checkbox + label:after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    width: 14px;
+    height: 10px;
+
+    background: #fff;
+
+    transition: .2s;
+}
+
+.checkbox:checked + label:before {
+
+}
+
+.checkbox:checked + label:after {
+    background: url("../src/images/checkbox.svg") no-repeat 50%;
+}
+
+.checkbox:focus + label:before {
+    /*box-shadow: inset 0 2px 3px rgba(0,0,0,.2), 0 0 0 3px rgba(255,255,0,.7);*/
+}
+
+.b-iShack-popup-form-inp-checkbox span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 19px;
+    color: #1C1C1C;
+}
+
+.b-iShack-popup-form-inp-checkbox a {
+    color: #00719C;
+    text-decoration: none;
+}
+
+.registration-btn, .forget-btn {
+    margin: 32px auto 0 auto;
+    display: block;
+}
+
+.b-iShack-popup-form-inp input::-webkit-input-placeholder {
+    color: #8A979F;
+}
+
+.b-iShack-popup-form-inp input::-moz-placeholder {
+    color: #8A979F;
+}
+
+/*Firefox 19+*/
+.b-iShack-popup-form-inp input:-moz-placeholder {
+    color: #8A979F;
+}
+
+/*Firefox 18-*/
+.b-iShack-popup-form-inp input:-ms-input-placeholder {
+    color: #8A979F;
+}
+
+.b-iShack-popup-form-select option:first-child {
+    color: #8A979F;
+}
+
+#sign-in-form .fancybox-button.fancybox-close-small,
+#forget-form .fancybox-button.fancybox-close-small,
+#success-iShack-form .fancybox-button.fancybox-close-small,
+#b-conditions .fancybox-button.fancybox-close-small {
+    background: url("../src/images/close-popup.svg") no-repeat 50%;
+    opacity: 1;
+    width: 60px;
+    height: 48px;
+
+}
+
+#sign-in-form .fancybox-button.fancybox-close-small svg,
+#forget-form .fancybox-button.fancybox-close-small svg,
+#success-iShack-form .fancybox-button.fancybox-close-small svg,
+#b-conditions .fancybox-button.fancybox-close-small svg {
+    display: none;
+
+}
+
+.forget-form-header {
+    padding: 16px;
+    width: 100%;
+}
+
+.forget-form-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #1C1C1C;
+    padding-top: 16px;
+    text-decoration: none;
+}
+
+.forget-form-text a {
+    color: #00719C;
+    padding: 4px 0;
+    display: block;
+}
+
+.forget-password {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 19px;
+    color: #00719C;
+    text-decoration: none;
+    padding: 4px 0;
+}
+
+.forget-success {
+    position: absolute;
+    top: 56px;
+}
+
+.b-footer__contact-link {
+    display: block;
+}
+
+.blue-btn:disabled {
+    opacity: 0.5;
+}
+
+.submit:disabled {
+    opacity: 0.5;
+}
+
+.iShack-form-btn.submit
+.b-iShack-popup-header h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #576A75;
+    width: 100%;
+    padding: 16px 32px;
+}
+
+.b-iShack-popup-body p, .b-iShack-popup-body li {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #1C1C1C;
+    padding-bottom: 8px;
+}
+
+.b-iShack-popup-body ul {
+    padding-left: 24px;
+}
+
+.error {
+    position: absolute;
+    z-index: 1;
+    font-size: 10px;
+    bottom: 0px;
+}
+
+.preloader-container {
+    position: absolute;
+    background: #fff;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    bottom: 0px;
+    right: 0px;
+    display: none;
+}
+
+.preloader-container svg {
+    top: 50%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+    position: absolute;
+}
+
+form {
+    position: relative;
+}
+
+.preloader-container--active {
+    display: block;
+}
+
+#iShack-form .form__input-error {
+    font-size: 12px;
+    color: #fa7066;
+    padding: 0;
+}
+
+.b-iShack-popup-form-inp input ~ .form__input-error {
+    opacity: 1;
+    visibility: visible;
+    transition: 1s linear 1s;
+    /*transition-property: ;*/
+}
+
+.b-iShack-popup-form-inp input:focus ~ .form__input-error {
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s linear 1s;
+    /*transition-property: ;*/
+}
+
+.b-iShack-popup-form-inp .form__input-error, .b-iShack-popup-form-inp-checkbox.ishack-js .form__input-error {
+
+    position: absolute;
+    top: 26px;
+    max-width: 250px;
+    height: 24px;
+    right: 4px;
+    -webkit-box-shadow: 0 2px 6px rgba(226, 41, 28, .2);
+    box-shadow: 0 2px 6px rgba(226, 41, 28, .2);
+    padding: 0 5px;
+    border-radius: 4px;
+    background: #fa7066;
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.b-iShack-popup-form-inp .form__input-error:before, .b-iShack-popup-form-inp-checkbox.ishack-js .form__input-error:before {
+    content: '';
+    display: block;
+    width: 18px;
+    height: 18px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background: #fa7066;
+    -webkit-box-shadow: -1px 2px 6px rgba(226, 41, 28, .2);
+    box-shadow: -1px 2px 6px rgba(226, 41, 28, .2);
+    border-radius: 4px;
+    position: absolute;
+    top: 3px;
+    left: -7px;
+    z-index: -1;
+}
+
+.checkbox-container {
+    position: relative;
+}
+
+.checkbox-container .b-iShack-popup-form-inp-checkbox.ishack-js .form__input-error {
+    top: 0;
+    right: 5px;
+}
+
+.b-iShack-for-img-wrap {
+    min-width: 56px;
+    height: 56px;
+    position: relative;
+}
+
+.ReactModal__Overlay {
+    z-index: 10;
+}
+
+.ReactModal__Content {
+    overflow: visible;
+}
+
+.closeBtnModal {
+    position: absolute;
+    right: -60px;
+    top: 0;
+    background: url('../src/images/close-popup.svg') no-repeat 50%;
+    cursor: pointer;
+    opacity: 1;
+    width: 60px;
+    height: 48px;
+    border: none;
+}
+
+
+@media screen and (max-width: 1199px) {
+    .b-iShack-container {
+        width: 100%;
+    }
+
+    .b-element__wrapper {
+        width: 100%;
+        padding: 0 56px 0 15px;
+    }
+
+    .b-element__answer {
+        width: 100%;
+    }
+
+    .b-element__question .b-element__wrapper:after {
+        right: 15px;
+    }
+
+    .b-iShack-reward-img {
+        width: 350px;
+    }
+
+    .b-iShack .b-iShack-reward-text {
+        width: calc(100% - 350px);
+    }
+
+
+}
+
+@media screen and (max-width: 991px) {
+    footer .b-iShack-nav ul {
+        flex-direction: row;
+    }
+
+    .b-iShack-for-img-wrap {
+        min-width: 40px;
+        height: 40px;
+    }
+
+    .b-footer__contact li {
+        max-width: 260px;
+        display: flex;
+        align-items: center;
+        margin: 35px 32px;
+    }
+
+    .b-footer__contact .b-footer__contact-link {
+        height: 22px;
+        width: 22px;
+        margin-right: 16px;
+    }
+
+    .b-footer__contact li img {
+        width: 22px;
+        height: 22px;
+        margin-bottom: 0;
+    }
+
+    .b-footer__contact {
+        display: flex;
+
+    }
+
+    .b-iShack-footer-nav .b-iShack-header-nav-item a {
+        padding: 18px 0;
+    }
+
+    footer .b-iShack-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .b-iShack-footer-bottom {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .b-iShack-todo-wrapp {
+        flex-wrap: wrap;
+        padding-top: 50px;
+    }
+
+    .b-iShack-todo-item {
+        max-width: none;
+        width: calc((100% - 20px) / 2);
+        margin-bottom: 20px;
+        margin-right: 10px;
+    }
+
+    .b-iShack-todo-item:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .b-iShack-main-info h2 {
+        font-size: 20px;
+    }
+
+    .b-iShack-main-img {
+        padding: 60px 0;
+    }
+
+    .b-iShack-for-item {
+        padding-top: 25px;
+    }
+
+    .b-iShack-for-item .b-iShack-for-img-wrap:before {
+        top: 0px;
+        left: -16px;
+        width: 32px;
+        height: 32px;
+    }
+
+    .b-iShack-for-item img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .b-iShack-for-item p span {
+        font-size: 16px;
+    }
+
+    .b-iShack .b-iShack-main-info h3 {
+        font-size: 16px;
+    }
+
+    .b-iShack p {
+        font-size: 16px;
+    }
+
+    .b-iShack h3 {
+        font-size: 24px;
+    }
+
+    .b-iShack-container {
+        padding: 40px 15px;
+    }
+
+    .b-iShack-faq.b-iShack h3 {
+        padding-top: 40px;
+    }
+
+    .b-element__wrapper {
+        font-size: 16px;
+    }
+
+    .b-iShack-nav ul {
+        flex-direction: column;
+    }
+}
+
+@media screen and  (max-width: 767px) {
+    .b-iShack-container {
+        flex-direction: column;
+    }
+
+    .b-iShack-main-info {
+        order: 2;
+        padding-bottom: 20px;
+    }
+
+    .b-iShack-main-img {
+        padding: 30px 0;
+    }
+
+    .b-iShack .b-iShack-main-info h3 {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .b-iShack-main-info,
+    .b-iShack-main-img {
+        width: 100%;
+    }
+
+    .b-iShack-main-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .b-iShack-todo-item {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .b-label-inp {
+        width: 100%;
+    }
+
+    #iShack-form {
+        width: 100%;
+    }
+
+    .b-iShack-nav ul {
+        width: 100%;
+    }
+
+    .b-iShack .b-iShack-reward-text {
+        width: 100%;
+    }
+
+    .b-iShack-reward-img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .b-iShack-todo-item {
+        display: flex;
+        align-items: center;
+    }
+
+    .b-iShack-todo-item img {
+        padding-bottom: 0;
+    }
+
+    .b-iShack-todo-item-img {
+        height: 100%;
+        margin-right: 16px;
+        width: 40px;
+        min-width: 40px;
+    }
+
+    .b-iShack p {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .b-iShack h3 {
+        font-size: 22px;
+    }
+
+    .b-iShack-todo-item-img:before {
+        width: 32px;
+        height: 32px;
+        top: -10px;
+        left: -10px;
+    }
+
+    .b-iShack-container {
+        padding: 30px 15px;
+    }
+
+    .b-iShack-todo-wrapp {
+        padding-top: 20px
+    }
+
+    .b-iShack-for-item p span {
+        font-size: 14px;
+    }
+
+    .b-iShack-for-item img {
+        max-width: 40px;
+        margin-top: 15px;
+    }
+
+    .b-iShack-for-item:before {
+        width: 32px;
+        left: 6px;
+        height: 32px;
+    }
+
+    .b-iShack-for-item p {
+        padding-left: 10px;
+    }
+
+    .b-iShack-for-item {
+        padding-top: 15px;
+    }
+
+    .b-iShack-reward-text-container {
+        padding: 20px 0;
+    }
+
+    .blue-btn {
+        font-size: 14px;
+    }
+
+    .element__wrapper {
+        font-size: 15px;
+    }
+
+    .b-iShack-faq.b-iShack h3 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .b-element__wrapper {
+        height: auto;
+        padding: 23px 56px 23px 15px;
+    }
+
+    .b-element__question .b-element__wrapper:after {
+        top: calc(50% - 15px);
+        height: 30px;
+    }
+
+    .b-iShack-footer-nav {
+        display: none;
+    }
+
+    .b-iShack.b-iShack-use-guide p {
+        padding: 20px 0 30px 0;
+    }
+
+    .blue-btn {
+        padding: 10px 12px;
+    }
+
+    .download-guide.blue-btn:before {
+        height: 32px;
+        right: 10px;
+    }
+
+    .download-guide.blue-btn {
+        padding-right: 40px;
+    }
+
+    header .b-iShack-container {
+        flex-direction: row;
+
+    }
+
+
+}
+
+
+/*mobile menu*/
+
+.menuButton {
+    background-color: #2B9CE5;
+    border-radius: 0px;
+    border: none;
+    color: #fff;
+    height: 48px;
+    margin: 0px;
+    min-height: 48px;
+    min-width: 48px;
+    padding: 0px;
+    width: 48px;
+    align-self: center;
+    transition: all 0.3s;
+}
+
+.menuButton:hover,
+.menuButton:focus,
+.menuButton:active {
+    outline: none;
+}
+
+.bar {
+    background-color: #fff;
+    width: 24px;
+    height: 3px;
+    margin: 4px auto;
+    border-radius: 3px;
+    display: block;
+    position: relative;
+    transition: all 0.3s;
+    backface-visibility: hidden;
+}
+
+.bar:before,
+.bar:after {
+    content: '';
+    background-color: #fff;
+    border-radius: 3px;
+    width: 24px;
+    height: 3px;
+    margin: 4px auto;
+    position: absolute;
+    transition: all 0.3s;
+    backface-visibility: hidden;
+}
+
+.menuButton .bar:before {
+    top: -12px;
+    left: 0px;
+}
+
+.menuButton .bar:after {
+    bottom: -12px;
+    left: 0px;
+}
+
+.menuButton.active .bar {
+    background-color: transparent;
+    transition: 0.2s;
+}
+
+.menuButton.active .bar:before {
+    transform: rotate(45deg) translate(4px, 9px);
+    transition: 0.3s;
+    width: 28px;
+    left: 1px;
+}
+
+.menuButton.active .bar:after {
+    transform: rotate(-45deg) translate(3px, -7px);
+    transition: 0.3s;
+    width: 28px;
+    left: 1px;
+}
+
+.menuButton {
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .b-iShack-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(4, 28, 46, 1);
+    }
+
+    .header-sign-in {
+        margin-right: 10px;
+    }
+
+    .b-iShack-header-logo {
+        margin-right: auto;
+    }
+
+    .menuButton {
+        display: block;
+    }
+
+    .b-iShack-footer .menuButton {
+        display: none;
+    }
+
+    .b-iShack-header-nav {
+        order: 5;
+    }
+
+    .b-iShack-header-nav ul {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: calc(0% + 80px);
+        left: -100%;
+        transition: .3s;
+        background: rgba(4, 28, 46, 1);
+        justify-content: center;
+    }
+
+    .b-iShack-header-nav-item a {
+        display: block;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .b-iShack-header-nav-item {
+        width: 100%;
+    }
+
+    .b-iShack-header-nav ul.active {
+        left: 0%;
+
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .b-footer__contact li {
+        margin: 10px 25px;
+    }
+
+    .b-footer__contact {
+        flex-direction: column;
+    }
+}
+
+
+.modalFormWrap {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.modalOverlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(30, 30, 30, 0.9);
+    z-index: 0;
+}
+
+.modalForm {
+    position: fixed;
+    z-index: 999999;
+
+}
+
+@media screen and (max-width: 767px) {
+    .modalForm {
+        width: calc(100% - 50px);
+    }
+
+    .b-iShack-popup-header,
+    .b-iShack-popup-body {
+        width: 100%;
+    }
+
+    .closeBtnModal {
+        width: 50px;
+        right: -13px;
+        top: -50px;
+    }
+}
+
+.sendingMessageWrap {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10
+}
+
+.sendingMessageOverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: rgb(30, 30, 30, 0.9);
+}
+
+.sendingMessage {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    z-index: 15;
+}
+
+@media screen and (max-width: 370px) {
+
+    .sendingMessage {
+        width: 270px;
+        height: 180px;
+    }
+}
